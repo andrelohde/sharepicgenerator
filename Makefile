@@ -9,6 +9,7 @@ build:
 
 install:
 	docker-compose run grunt sh -c 'npm install'
+	docker-compose run webserver sh -c 'touch dist/log/log.log; mkdir dist/persistent/user; chgrp -R www-data dist; chmod -R g+w dist/persistent/; chmod -R g+w dist/log/log.log'
 
 grunt-shell:
 	docker-compose exec grunt bash
