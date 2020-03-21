@@ -76,20 +76,20 @@ header .container {
 
 <div class="row">
 <header>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+  <!--<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="assets/background.mp4" type="video/mp4">
-  </video>
+  </video>-->
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-        <h1 class="display-4 text-shadow">Grüner<br/>Sharepic&shy;generator</h1>
-        <p class="lead mb-0 text-shadow">Erstelle Deine eigenen Sharepics für Social Media und Co.</p>
+      <div class="w-100 text-black">
+        <h1 class="display-4">GRÜNE JUGEND<br />Sharepicgenerator</h1>
+        <p class="lead mb-0">Erstelle Deine eigenen Sharepics für Social Media und Co.</p>
         <div class="mt-3 d-flex flex-column align-items-center">
           <a href="federal/" class="mt-5 btn btn-secondary btn-lg">
-            <i class="fas fa-pen mr-2 small"></i>eigenes Sharepic erstellen
+            <i class="fas fa-pen mr-2 small"></i>Sharepic erstellen
           </a>
-          <a href="bayern" class="mt-2 btn btn-info btn-sm"><i class="fas fa-pen-fancy"></i> Kommunalwahl Bayern</a>
-          <a href="vintage/" class="mt-5 btn btn-dark btn-sm"><i class="fab fa-pied-piper-alt"></i> Vintage-Version zum 30./40. Geburtstag</a>
+          <!--<a href="bayern/" class="mt-2 btn btn-info btn-sm"><i class="fas fa-pen-fancy"></i> Kommunalwahl Bayern</a>
+          <a href="vintage/" class="mt-5 btn btn-dark btn-sm"><i class="fab fa-pied-piper-alt"></i> Vintage-Version zum 30./40. Geburtstag</a>-->
 
             <span class="mt-5 cursor-pointer testaccess d-none" id="test-access-opener">
                 <i class="fas fa-sign-in-alt"></i> Gastzugang
@@ -120,7 +120,7 @@ header .container {
   </div>
 </header>
 </div>
-
+<!--
 <section class="row my-5">
   <div class="container">
     <div class="row mt-5">
@@ -157,16 +157,16 @@ header .container {
     </div>
   </div>
 </section>
-
+-->
 
 <footer class="row bg-primary p-2 text-white">
     <div class="col-12 col-lg-6">
-    <a href="https://github.com/codeispoetry/sharepicgenerator" target="_blank">Quellcode auf github.com</a> 
+    <a href="https://github.com/codeispoetry/sharepicgenerator" target="_blank">Quellcode auf github.com</a>
     | <a href="/imprint.php">Impressum</a>
     </div>
 
     <div class="col-12 col-lg-6 text-lg-right">
-        Programmiert mit <i class="fas fa-heart text-yellow"></i> von 
+        Programmiert mit <i class="fas fa-heart text-yellow"></i> von
         <a href="MAILTO:mail@tom-rose.de?subject=Sharepicgenerator">Tom Rose</a>.
     </div>
 </footer>
