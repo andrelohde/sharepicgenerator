@@ -27,7 +27,7 @@
 header {
   position: relative;
   background-color: white;
-  height: 75vh;
+  height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -76,14 +76,14 @@ header .container {
 
 <div class="row">
 <header>
-  <!--<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="assets/background.mp4" type="video/mp4">
-  </video>-->
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="assets/background2.mp4" type="video/mp4">
+  </video>
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-black">
-        <h1 class="display-4">GRÜNE JUGEND<br />Sharepicgenerator</h1>
-        <p class="lead mb-0">Erstelle Deine eigenen Sharepics für Social Media und Co.</p>
+      <div class="w-100 text-white">
+        <h1 class="display-4 text-shadow">GRÜNE JUGEND<br />Sharepicgenerator</h1>
+        <p class="lead mb-0 text-shadow">Erstelle Deine eigenen Sharepics für Social Media und Co.</p>
         <div class="mt-3 d-flex flex-column align-items-center">
           <a href="federal/" class="mt-5 btn btn-secondary btn-lg">
             <i class="fas fa-pen mr-2 small"></i>Sharepic erstellen
